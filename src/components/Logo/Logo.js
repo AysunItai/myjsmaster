@@ -1,12 +1,15 @@
 import React from 'react';
-import myjsmasterlogo from './myjsmaster.svg';
+import Navigation from '../Navigation/Navigation'
+import myjsmasterlogo from './myjsmasterlogo.svg';
 
-const Logo = () =>{
+const Logo = (props) =>{
+    console.log(props)
     return (
-        <div className='ma4 mt0'>
-            <img alt='logo' src={myjsmasterlogo}/>
+        <h1 style={{cursor:'pointer',fontSize:'30px'}} onClick={()=>props.onRouteChange('home')} >
+            MYJSMASTER
+        </h1>
 
-        </div>
+        
         
     );
 }
