@@ -22,7 +22,7 @@ const Home = (props) =>{
             </div>
             <div style={{display:'flex',alignItems:'center',position:'relative'}} className="right">
                 <img style={{boxShadow:'rgba(0, 60, 230, 0.25) 0px 54px 55px, rgba(0, 60, 230, 0.12) 0px -12px 30px, rgba(0, 60, 230, 0.12) 0px 4px 6px, rgba(0, 60, 230, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px',height:'90%',width:'100%',objectFit:'cover',borderRadius:'40px'}}src={hero}/>
-                <p style={{fontSize:'25px',top:'50%',left:'50%',transform: 'translate(-50%,-50%)',position:'absolute'}}>
+                <p className='img-p' style={{fontSize:'25px',top:'50%',left:'50%',transform: 'translate(-50%,-100%)',position:'absolute'}}>
                         <Typed
                     strings={['Do you want to become a Web Developer?',
                     "But you don't know where to start from?",

@@ -69,3 +69,10 @@
         flex-direction: column-reverse;
     }
 }
+@media only screen and (max-width: 500px) {
+    .img-p {
+        font-size: 16px!important;
+        font-weight: bold;
+       
+    }
+}
