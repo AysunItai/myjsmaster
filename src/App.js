@@ -33,7 +33,7 @@ class App extends Component{
      
      
      
-     {route==='home' ? <Home onRouteChange={this.onRouteChange}/>
+     {route==='home' || route==='signout'? <Home onRouteChange={this.onRouteChange}/>
      :(
       route==='signin' ?
       <Signin onRouteChange={this.onRouteChange}/> 

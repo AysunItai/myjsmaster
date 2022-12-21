@@ -11,7 +11,7 @@ const Navigation = ({onRouteChange,isSignedIn}) =>{
            <nav style={{display:'flex ', alignItems:'center',justifyContent:'space-around',color:'white',background:`url(${bg}) center`,padding:'5px'}}>
             <Logo onRouteChange={onRouteChange}/>
              <div style={{display:'flex ', alignItems:'center'}}>
-            <p onClick={()=>onRouteChange('home')} className='signout-p f3 link dim white underline pa3 pointer'>Sign Out</p>
+            <p onClick={()=>onRouteChange('signout')} className='signout-p f3 link dim white underline pa3 pointer'>Sign Out</p>
            </div>
            </nav>
             )
