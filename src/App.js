@@ -39,7 +39,9 @@ class App extends Component{
       <Signin onRouteChange={this.onRouteChange}/> 
       :(route==='register'?
       <Register onRouteChange={this.onRouteChange}/>
-      :<Download/>
+      :<Download>
+        <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange}/>
+      </Download>
       )
 
      )
