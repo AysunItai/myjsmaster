@@ -9,7 +9,7 @@ const Home = (props) =>{
     //https://www.youtube.com/watch?v=1rTaNzjGOek
     
     return (
-        <div style={{display:'flex',justifyContent:'center',height:'80vh',paddingLeft:'3rem',paddingRight:'3rem',gap:'5rem'}}>
+        <div className='home-hero' style={{display:'flex',justifyContent:'center',height:'80vh',paddingLeft:'3rem',paddingRight:'3rem',gap:'5rem'}}>
             <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}} className="left">
                 <h1 style={{color:'white',fontSize:'34px'}}>WELCOME TO MYJSMASTER....</h1>
                 <h3 style={{color:'white',fontSize:'34px'}}>Get Your Free Web Developer Road Maps Now!</h3>
